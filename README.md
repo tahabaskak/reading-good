@@ -53,8 +53,6 @@ Note:
 - mvn clean install
 - docker compose up -d
 
-![](images/DockerRun.png)
-
 ## Languages and Tools
 - Java 11
 - Spring Boot
