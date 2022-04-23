@@ -1,0 +1,19 @@
+version: "2"
+
+services:
+  app:
+    image: "docker-spring-boot:latest"
+    build:
+      context: .
+    container_name: reading_is_good_app
+    depends_on:
+      - mongo_db
+    ports:
+      - 8080:8080
+    links:
+      - mongo_db:reading_is_good_db
+  mongo_db:
+    image: "mongo:4.4.3"
+    restart: always
+    ports:
+      - 27017:27017
