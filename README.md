@@ -1,6 +1,6 @@
 # Reading is Good
 
-**Project Url**: https://github.com/tahabaskak/reading-is-good.git
+**Project Url**: https://github.com/tahabaskak/reading-good.git
 
 ## Rest API ( Reading is Good )
 
